@@ -1,5 +1,5 @@
 [target.riscv32imac-unknown-none-elf]
-runner = "probe-rs run --chip esp32c6"
+runner = "probe-rs run --chip esp32c6 --log-file probe.txt"
 rustflags = [
   "-C", "link-arg=-Tlinkall.x",
   "-C", "link-arg=-Tdefmt.x",
