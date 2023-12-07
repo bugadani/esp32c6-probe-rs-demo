@@ -1,5 +1,9 @@
 [target.riscv32imac-unknown-none-elf]
 runner = "probe-rs run --chip esp32c6 --log-file probe.txt"
+
+# add extra options like this:
+# runner = "probe-rs run --chip esp32c6 --log-file probe.txt --restore-unwritten"
+
 rustflags = [
   "-C", "link-arg=-Tlinkall.x",
   "-C", "link-arg=-Tdefmt.x",

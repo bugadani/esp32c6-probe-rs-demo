@@ -1,8 +1,0 @@
-[default.general]
-chip = "esp32c6"
-
-[default.rtt]
-enabled = true
-
-[default.probe]
-protocol = "Jtag"
