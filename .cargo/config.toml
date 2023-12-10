@@ -1,5 +1,5 @@
 [target.riscv32imac-unknown-none-elf]
-runner = "probe-rs run --chip esp32c6 --log-file probe.txt"
+runner = "probe-rs run --chip esp32c6"
 
 # add extra options like this:
 # runner = "probe-rs run --chip esp32c6 --log-file probe.txt --restore-unwritten"
